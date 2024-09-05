@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+th {
+
+    font-size: 14px;
+    line-height: 26px;
+   
+
+    color: #15143966;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+
+td {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    padding-left: 30px;
+    color: #1E0E62;
+}
+
+table {
+    width: 970px;
+    height: 70px;
+    border-collapse: collapse;
+}
+
+.head {
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    color: #1E0E62;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.bracks {
+
+    justify-content: space-between;
+}
+
+.tack {
+    background-color: #EBEAED;
+    width: 970px;
+    height: 70px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.team {
+    text-align: left;
+
+}
+
+.tuk {
+    width: 970px;
+    height: 70px;
+
+}
+
+.para {
+    color: #15143966;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.row {
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
